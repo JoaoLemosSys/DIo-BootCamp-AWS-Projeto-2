@@ -16,7 +16,7 @@ cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 
 echo "Descompactando..."
-unzip  /tmp/main.zip
+unzip -o /tmp/main.zip 
 echo "Copiando arquivos para pasta do servidor Apache"
 cd linux-site-dio-main 
 cp *.* /var/www/html -f
